@@ -1,17 +1,17 @@
 public class Queue {
     public static void main(String[] args) {
         MyQueue ms = new MyQueue();
-        System.out.println(ms.print());
-        ms.push(1);
-        ms.push(2);
-        System.out.println(ms.print());
-        ms.push(3);
-        ms.push(4);
-        System.out.println(ms.print());
-        System.out.println(ms.pop());
-        System.out.println(ms.print());
-        System.out.println(ms.pop());
-        System.out.println(ms.print());
+        System.out.println(ms.print());//вывод на экран
+        ms.push(1);//добавление в очередь
+        ms.push(2);//добавление в очередь
+        System.out.println(ms.print());//вывод на экран
+        ms.push(3);//добавление в очередь
+        ms.push(4);//добавление в очередь
+        System.out.println(ms.print());//вывод на экран
+        System.out.println(ms.pop());//извлечение из очереди
+        System.out.println(ms.print());//вывод на экран
+        System.out.println(ms.pop());//извлечение из очереди
+        System.out.println(ms.print());//вывод на экран
     }
 }
 
